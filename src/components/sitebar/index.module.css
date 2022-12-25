@@ -1,0 +1,84 @@
+.sitebar {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.siteTittle {
+    display: block;
+    color: #333;
+    font-size: 36px;
+    line-height: 100%;
+    text-decoration: none;;
+    margin-left: 55px;
+    margin-top: 55px;
+}
+
+.line {
+  width: 75px;
+  margin-left: 55px;
+  margin-top: -10px;
+}
+
+.text {
+    color: #aaa;
+    line-height: 145%;
+    width: 300px;
+    height: 70px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+
+.line2 {
+    width: 75px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.menu > li {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.35s;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.links {
+    color: #aaa;
+}
+
+.links:hover {
+    color: black;
+}
+
+.mediaIcons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    margin: 10px 0;
+    width: 120px;
+    margin-left: 55px;
+}
+  
+.mediaIcons > .img {
+    transition: 0.25s;
+    cursor: pointer;
+    opacity: 0.55;
+}
+  
+.mediaIcons > .img:hover {
+    opacity: 1;
+}
+
+.img {
+    height: 20px;
+    width: 20px;
+}
